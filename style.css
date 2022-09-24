@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    background: pink;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    flex-direction: column;
+    color: white;
+
+
+
+}
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+h2{
+ text-align: center;
+ font-size: 50px;
+ font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+ letter-spacing: 4px;
+ text-shadow: 2px 2px 4px rgb(0 0 0 / 30%);
+ white-space: nowrap;
+}
+
+.btn1{
+    background-image: url('images/crash.png');
+}
+.btn2{
+    background-image: url('images/kick.png');
+}
+.btn3{
+    background-image: url('images/snare.png');
+}
+.btn4{
+    background-image: url('images/tom.png');
+}
+.btn{
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 30%);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.7s;
+
+}
+.btn span{
+text-shadow: 0 4px 8px rgb(0 0 0 / 30%);
+
+}
+span:hover{
+    color: pink;
+}
+.btn:active{
+ background-size: 110%;
+}
